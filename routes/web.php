@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/todo', function () {
     return 'hello world';
 });
+
+Route::get('/todo_template', function () {
+    return view('todo');
+});
